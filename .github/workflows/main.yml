@@ -16,7 +16,7 @@ jobs:
 
     steps:
     # The checkout step copies your repo into the action runner. Important!
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v4.2.2
     
     - name: Deploy to Neocities
       uses: bcomnes/deploy-to-neocities@v3.0.4
